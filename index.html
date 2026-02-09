@@ -16,7 +16,7 @@
   
   <style>
     :root {
-      --color-bg: #FAFAF9;
+      --color-bg: #d2232a;
       --color-surface: #FFFFFF;
       --color-primary: #1D4ED8;
       --color-primary-hover: #1E40AF;
@@ -55,16 +55,14 @@
       margin-bottom: 32px;
     }
     
-    h1 {
-      font-family: 'Fraunces', Georgia, serif;
-      font-size: 2rem;
-      font-weight: 600;
-      color: var(--color-text);
+    .header-logo {
+      max-width: 100%;
+      height: auto;
       margin-bottom: 8px;
     }
     
     .subtitle {
-      color: var(--color-text-muted);
+      color: #ffffff;
       font-size: 1rem;
     }
     
@@ -322,10 +320,6 @@
         padding: 24px 16px 40px;
       }
       
-      h1 {
-        font-size: 1.65rem;
-      }
-      
       #map {
         height: 280px;
       }
@@ -340,7 +334,7 @@
 <body>
   <div class="container">
     <header>
-      <h1>Community Mapping</h1>
+      <img src="images/MappingManhattan600x85.png" alt="Community Mapping" class="header-logo">
       <p class="subtitle">Tell us what matters in Manhattan</p>
     </header>
     
