@@ -1,5 +1,5 @@
 /**
- * BetaNYC Community Mapping - Google Apps Script Backend
+ * MBPO Community Mapping - Google Apps Script Backend
  * 
  * SETUP INSTRUCTIONS:
  * 
@@ -85,7 +85,7 @@ function doGet(e) {
   return ContentService
     .createTextOutput(JSON.stringify({ 
       status: 'ok', 
-      message: 'BetaNYC Map Form Handler is running. Use POST to submit data.' 
+      message: 'Map Form Handler is running. Use POST to submit data.' 
     }))
     .setMimeType(ContentService.MimeType.JSON);
 }
